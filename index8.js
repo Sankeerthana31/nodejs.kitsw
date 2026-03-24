@@ -15,7 +15,7 @@ app.get("/:id", (req, res) => {
   const result = users.find((user) => user.id === id);
   res.json(result);
 });
-app.post("/", (req, res) => {
+app.post("/", (req, res) => {//posting data from body in to this
   const user = req.body;
   users.push(user);
   res.json(users);

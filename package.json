@@ -1,6 +1,6 @@
 {
   "name": "nodejs.kitsw",
-  "type":"module",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index1.js",
@@ -9,6 +9,17 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
-
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sankeerthana31/nodejs.kitsw.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sankeerthana31/nodejs.kitsw/issues"
+  },
+  "homepage": "https://github.com/Sankeerthana31/nodejs.kitsw#readme"
 }

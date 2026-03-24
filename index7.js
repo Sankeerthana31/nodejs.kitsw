@@ -1,7 +1,10 @@
 import express from "express";
 const app = express();
 app.listen(8080);
-//query id you send localhost:8080/?id=21&name=sai
 app.get("/", (req, res) => {
-  res.send(req.query.id+req.query.name);
+  const user = {
+    name: "John",
+    age: 21,
+  };
+  res.json(user)
 });
